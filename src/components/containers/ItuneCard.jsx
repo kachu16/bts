@@ -1,12 +1,12 @@
 import React from 'react';
 import { CiShare1 } from "react-icons/ci";
 
-const ItuneCard = ({selectedCountry}) => {
+const ItuneCard = ({selectedCountry , countryCode}) => {
   return (
 
     <div className='flex justify-center mt-7'>
     <div>
-        <h3 className='text-white text-md font-bold'>BO iTunes {selectedCountry} <a href="tastea.co.in"><span className='inline-block'><CiShare1/></span></a> </h3>
+        <h3 className='text-white text-md font-bold'>{countryCode} iTunes {selectedCountry} <a href="tastea.co.in"><span className='inline-block'><CiShare1/></span></a> </h3>
         
        <div className="max-[390px]:w-[20rem] h-20 w-[24rem] md:w-[34rem] md:h-24 flex items-center mt-2 text-white bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 border border-gray-400 hover:bg-gray-500">
 

@@ -1,5 +1,5 @@
 import React from "react";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 // import Main from "./components/Main";
 // import Handles from "./components/Handles";
 // import Cards from "./components/Cards";
@@ -20,6 +20,7 @@ const App = () => {
     // </div>
 
     <div>
+      <Navbar/>
       <Itune/>
     </div>
   )
